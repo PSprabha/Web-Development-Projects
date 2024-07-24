@@ -1,0 +1,680 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+.top{
+    background-color: rgb(246,246,246);
+}
+.topRight li{
+   padding: 10px 20px 10px;
+   font-size: small;
+}
+.topRight ul{
+    color: rgb(164,28,32);
+    list-style-type: none;
+    display: flex;
+    justify-content:right;
+    position: relative;
+    right: 250px;
+}
+.phone{
+    color: black;
+}
+.gold{
+    height: 110px;
+    width: 130px;
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 12px;
+}
+.topSec{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px; 
+    height: 100px;
+}
+.input input{
+    border: none;
+    width:350px;
+    height: 37px;
+    border-radius: 15px;
+    padding-left: 15px;
+    font-size:medium;
+}
+.input{
+    border: white;
+}
+.input input:focus{
+    outline: none;
+}
+.input i{
+
+    position: relative;
+    right: 30px;
+    top: 4px;
+}
+.topSec p{
+    font-size:x-small;
+    color: rgb(119,119,119);
+}
+.topSec i{
+    font-size: x-large;
+    color: rgb(75, 78, 81);
+}
+.nav{
+    color: rgb(230,240,255);
+    background-color: rgb(157,10,14);
+    position: sticky;
+    top:0px;
+    text-align: left;
+    padding: 5px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: auto;
+    width: 80%;
+    font-size: x-small;
+    padding-right: 300px;
+    font-weight: 549;
+    cursor: pointer;
+}
+.nav ul li:hover{
+    color: rgb(255,229,90);
+}.nav li{
+    padding: 15px;
+}
+.meenatchi{
+    width: 100%;
+}
+.sImgcontainer{
+    border-top: .5px solid rgb(241, 231, 231);
+    margin: auto;
+    width: 80%;
+    height: 200px;
+    border-bottom: 1px solid rgb(241, 231, 231);
+}
+.simg{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0 40px;
+    text-align: center;
+}
+.featured{
+    padding-left: 150px;
+    padding-top: 15px;
+}
+.mimg{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 30px;
+}
+.mimg img{
+    height: 250px;
+    transition:.3s;
+}
+.mimgcontainer{
+    margin: auto;
+    width: 80%;
+    border-top: .5px solid rgb(241, 231, 231);
+    padding-bottom: 20px;
+}
+.mimg img:hover{
+   box-shadow: 8px 8px 15px rgb(119,119,119);
+}
+.mimg h4{
+    color: rgb(119,119,119);
+    font-size: large;
+    padding-bottom: 2px;
+    padding-top: 25px;
+}
+.mimg h3{
+    padding-bottom: 30px;
+}
+.limg{
+    margin: auto;
+    width: 80%;
+}
+.middle{
+    background-color: rgb(241,243,244);
+}
+.hr{
+    margin: auto;
+    width: 80%; 
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.hr p{
+    border: 1px solid rgb(126,152,177);
+    width: 390px;
+}
+.hr div{
+    padding-top: 10px;
+}
+.hr h3{
+    color: rgb(34,37,41);
+    padding-bottom: 10px;
+}
+.limg img{
+    padding: 5px 10px;
+    padding-bottom: 40px;
+}
+.limg img:hover{
+    filter: contrast(70%);
+}
+.footer{
+    background-color:rgb(34,37,41)
+}
+.lists{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.lists ul{
+    list-style-type: none;
+    padding: 20px;
+}
+.lists li{
+    line-height: 22px;
+    font-size: 16px;
+    color: rgb(168,168,168);
+    cursor: pointer;
+}
+.lists h3,h4{
+    padding-bottom: 20px;
+}
+.imgsection{
+    margin: auto;
+    width: 80%;
+}
+.stline{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.ndline{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.imgsection h4{
+    color: rgb(119,119,119);
+    font-size: large;
+    padding-bottom: 2px;
+    padding-top: 30px;
+}.imgsection h3{
+    padding-bottom: 20px;
+}
+.just{
+    padding-top: 50px;
+    margin: auto;
+    width: 80%;
+}.just p{
+    border: 1px solid rgb(241, 231, 231);
+}.imgsection img{
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    transition: transform 4sec;
+}
+.imgsection img:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 8px rgb(119,119,119);
+}
+.imgsection{
+    padding-top: 30px;
+}
+.content{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    /* height: 100%; */
+    justify-content: center;
+    padding: 30px 0;
+}
+.content h4{
+    color: rgb(119,119,119);
+}
+.content hr{
+    color:rgb(241, 231, 231);
+}
+.start{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.second img:hover{
+    transform: scale(1.3);
+}
+.third{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.third img:hover{
+    transform:scale(1.2);
+}
+.content img{
+    height: 150px;
+    width: 250px;
+    padding-right: 100px;
+}
+.coin{
+    padding: 20px;
+}.chain{
+    padding: 20px;
+}.old{
+    padding: 20px;
+}.start h3{
+    padding-bottom: 20px;
+}.start h4{
+    padding-top: 50px;
+    padding-bottom: 0;
+    width: 90px;
+}
+.second h3{
+    padding-bottom: 20px;
+}
+.second h4{
+    padding-top: 50px;
+    padding-bottom: 0;
+    width: 90px;
+}
+.third h3{
+    padding-bottom: 20px;
+}
+.third h4{
+    padding-top: 50px;
+    padding-bottom: 0;
+    width: 90px;
+}
+.avasaram{
+    margin: auto;
+    width: 80%;
+}
+.twoimg img{
+    height: 40px;
+}
+span{
+    color:red;
+}.supergold{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.buttons input{
+    background-color: rgb(157,10,14);
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+}
+.para{
+    padding-bottom: 30px;
+}
+.para p{
+    color: rgb(119,130,154);
+}
+.para h4{
+    padding-bottom: 1px;
+    color: rgb(119,119,119)
+}
+.right h4{
+    padding-bottom: 1px;
+    color: rgb(119,119,119)
+}
+.parasec{
+    padding-bottom: 30px;
+}
+.parasec p{
+    color: rgb(119,130,154);
+}
+.hrr{
+    border: 1px solid rgb(241, 231, 231);
+}
+.hrrr{
+    border: 1px solid rgb(139, 138, 138);
+}
+.last{
+    margin: auto;
+    width: 80%;
+    padding-top: 20px;
+}
+.final h3,h4{
+    color: rgb(119,119,119);
+}
+.final p{
+    color: rgb(131,131,131);
+    line-height: 23px;
+}
+.finaldiv{
+    display: flex;
+}
+.finaldiv img{
+    height: 350px;
+    width: 350px;
+    padding-left: 10px;
+}
+.final{
+    margin: auto;
+    width: 80%;
+}
+.one{
+    padding-right: 30px;
+}
+.two{
+    padding-left: 30px;
+}
+.final h3{
+    padding-bottom: 15px;
+}
+.final h4{
+    padding-top: 20px;
+}
+.subs{
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+.subs input:focus{
+    outline: none;
+    background-color: transparent;
+}
+.subs input{
+    padding: 20px;
+    border: none;
+}
+.footemail{
+    background-color: transparent;
+}
+.subscribe{
+    background-color: rgb(157,10,14);
+    color: aliceblue;
+    border-radius: 0px 50px 50px 0px;
+}
+.lastright{
+    padding-top: 25px;
+}
+.lastright h1{
+    padding: 30px ;
+}
+.app{
+    padding-left: 30px;
+}
+.finally{
+    margin: auto;
+    width: 80%;
+}
+.finally p{
+    color: rgb(168,168,168);
+}
+.lastone{
+    display: flex;
+    justify-content: space-around;
+}
+.lasticon h1{
+    color: aliceblue;
+    padding-left: 60px;
+}
+.copyright{
+    padding: 80px 0;
+}
+.lasticon{
+    padding: 50px 0;
+}
+.i{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.i i{
+    padding: 10px;
+    transition: 0.5s;
+    font-size: xx-large;
+    margin-left: 20px;
+}
+.fa-facebook-f{
+    color: rgb(59,88,151);
+}.fa-youtube{
+    color: rgb(218,74,56);
+}
+.fa-linkedin-in{
+    color:rgb(0,118,179);
+}
+.fa-instagram{
+    color:rgb(203,72,106) ;
+}
+.fa-twitter{
+    color:rgb(51,202,252) ;
+}
+.fa-pinterest{
+    color:rgb(228,32,4) ;
+}
+.fa-facebook-f:hover{
+    transform: scale(1.4);
+    color:rgb(248, 243, 242) ;
+    border: none;
+    border-radius: 25px 3px 25px 3px;
+    background-color:rgb(0,118,179);
+}
+.fa-youtube:hover{
+    transform: scale(1.4);
+    color:rgb(248, 243, 242) ;
+    border: none;
+    border-radius: 25px 3px 25px 3px;
+    background-color:rgb(218,74,56);
+}
+.fa-linkedin-in:hover{
+    transform: scale(1.4);
+    color:rgb(248, 243, 242) ;
+    border: none;
+    border-radius: 25px 3px 25px 3px;
+    background-color:rgb(0,118,179); 
+}
+.fa-instagram:hover{
+    transform: scale(1.4);
+    color:rgb(248, 243, 242) ;
+    border: none;
+    border-radius: 25px 3px 25px 3px;
+    background-color:rgb(203,72,106) ; 
+}
+.fa-twitter:hover{
+    transform: scale(1.4);
+    color:rgb(248, 243, 242) ;
+    border: none;
+    border-radius: 25px 3px 25px 3px;
+    background-color:rgb(51,202,252) ;
+}
+.fa-pinterest:hover{
+    transform: scale(1.4);
+    color:rgb(248, 243, 242) ;
+    border: none;
+    border-radius: 25px 3px 25px 3px;
+    background-color:rgb(228,32,4) ; 
+}
+.whole{
+    position: relative;
+}
+.goldjwellery{
+    background-color: rgb(255,255,255);
+    text-align: center;
+    position: absolute;
+    top: 52px;
+    left: 200px;
+    color: black;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 25px 0px;
+}
+.jwell:hover+.goldjwellery{
+    display: block;
+}
+.jwelleryst{
+    display: flex;
+}
+.Jwellerynd{
+    display: flex;
+}
+.goldjwellery img{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px darkgray;
+}
+.goldjwellery p{
+    padding-top: 20px;
+}
+.jwelleryst div{
+    padding: 40px;
+}.Jwellerynd div{
+    padding: 40px;
+}
+.diawhole{
+    background-color: white;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 52px;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 25px 0px;
+}
+.diamond:hover+.diawhole{
+    display: block;
+}
+.diast{
+    display: flex;
+}
+.diand{
+    display: flex;
+}
+.diawhole p{
+    padding-top: 20px;
+}
+.diawhole img{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px darkgray;
+}
+.diast div{
+    padding: 40px;
+}.diand div{
+    padding: 40px;
+}
+.coinsimg{
+    display: flex;
+    background-color: white;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 52px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 25px 0px;
+}
+.coining{
+    display: none;
+}
+.coinsimg p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.coinsimg img{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+.coins:hover+.coining{
+    display: block;
+}
+.silverflex{
+    display: flex;
+}
+.silverhover div{
+    padding: 10px 20px;
+}
+.silverhover{
+    background-color: white;
+    text-align: center;
+    color: black;
+    position: absolute;
+    top: 52px;
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 25px 0px;
+}
+.silverhover p{
+    padding-top: 40px;
+}
+.silverhover img{
+    height: 180px;
+    width: 180px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px darkgray;
+}
+.silvernav:hover+.silverhover{
+    display: block;
+}
+.giftflex{
+    display: flex;
+    text-align: center;
+    color: black;
+}
+.gifts{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 25px 0px;
+    background-color: white;
+    position: absolute;
+    top: 52px;
+    display: none;
+}
+.giftflex img{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
+.giftflex p{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}.gift:hover+.gifts{
+    display: block;
+}
+.schemes{
+    background-color: white;
+    color: black;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 25px 0px;
+    position: absolute;
+    top: 52px;
+    right: 490px;
+    display: none;
+}
+.schemes p{
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+.schemes img{
+    height: 150px;
+    width: 150px;
+    padding-top: 10px;
+}
+.schemes div{
+    padding: 20px 20px 15px;
+}
+.schemesst,.schemesnd{
+    display: flex;
+}
+.schemesnav:hover+.schemes{
+    display: block;
+}
